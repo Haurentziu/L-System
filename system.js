@@ -26,10 +26,10 @@ var mouseLoc = {
 
 var offset = {
 	x: 350,
-	y: 550,
+	y: 650,
 }
 
-var zoom = 3;
+var zoom = 0.2;
 var isDragged = false;
 
 window.onload = function(){
@@ -165,4 +165,3 @@ function resize(){
 	c.height = window.innerHeight;
 	clearScreen();
 }
-
